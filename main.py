@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 import random
 #predefine constants
-comments = ['I like this, this is the best', 'Wow, great I love this', 'Really great!!! Aha~~~~']
+comments = ['Saya suka ini, lanjutkan kak!', 'Wow, keren kakk, suka bgt', 'Really great!!! Aha~~~~']
 
 visited = {}
 
@@ -28,7 +28,7 @@ while True:
 		break
 	except Exception as e:
 		pass
-browser.get('https://www.instagram.com/explore/locations/3800652/flushing-new-york/')
+browser.get('https://www.instagram.com/explore/locations/567193077/indonesia/')
 
 time.sleep(3)
 # while True:
